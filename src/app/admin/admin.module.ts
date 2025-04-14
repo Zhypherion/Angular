@@ -34,6 +34,7 @@ import { OverviewComponent } from './overview.component';
         SubNavComponent, 
         // Declare SubNavComponent as part of this module
 
+        
         LayoutComponent, 
         // Declare LayoutComponent as part of this module
 

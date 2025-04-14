@@ -6,3 +6,4 @@
 
 export class LayoutComponent { } 
 // Export the class so it can be used as a component in the application
+

@@ -106,6 +106,7 @@ export class AlertComponent implements OnInit, OnDestroy {
         }
 
         // Return the combined list of classes as a single string
+        
         return classes.join(' ');
     }
 }

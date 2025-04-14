@@ -39,3 +39,4 @@ module.exports = function (config) {
     restartOnFileChange: true // Automatically restart tests when files are changed
   });
 };
+

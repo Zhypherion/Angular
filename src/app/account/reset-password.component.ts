@@ -12,6 +12,7 @@ enum TokenStatus { // Enum to track the status of the token validation process
     Invalid // Token is invalid
 }
 
+
 @Component({ templateUrl: 'reset-password.component.html' }) // Component decorator with associated template
 export class ResetPasswordComponent implements OnInit {
     TokenStatus = TokenStatus; // Expose TokenStatus enum to the template

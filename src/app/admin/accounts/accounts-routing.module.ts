@@ -5,6 +5,7 @@ import { ListComponent } from './list.component';  // Import the ListComponent f
 import { AddEditComponent } from './add-edit.component';  // Import the AddEditComponent for adding or editing items
 
 
+
 const routes: Routes = [  // Define the routes for this module
     { path: '', component: ListComponent },  // Default route to display ListComponent
     { path: 'add', component: AddEditComponent },  // Route for adding new items, mapped to AddEditComponent

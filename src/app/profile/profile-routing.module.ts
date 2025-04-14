@@ -5,6 +5,7 @@ import { LayoutComponent } from './layout.component'; // Import LayoutComponent 
 import { DetailsComponent } from './details.component'; // Import DetailsComponent to display account details
 import { UpdateComponent } from './update.component'; // Import UpdateComponent to allow profile updates
 
+
 const routes: Routes = [ // Define the routes for this module
     {
         path: '', component: LayoutComponent, // Root path displays the LayoutComponent

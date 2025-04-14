@@ -10,6 +10,7 @@ export class ForgotPasswordComponent implements OnInit {
     loading = false;  // Flag to indicate whether the form submission is in progress
     submitted = false;  // Flag to indicate whether the form has been submitted
 
+    
     constructor(
         private formBuilder: FormBuilder,  // Injecting FormBuilder to build the form
         private accountService: AccountService,  // Injecting AccountService to handle account-related API calls

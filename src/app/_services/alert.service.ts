@@ -9,6 +9,7 @@ export class AlertService {
     private subject = new Subject<Alert>(); // A Subject to manage alert data and notify subscribers
     private defaultId = 'default-alert'; // Default ID for the alert, to group similar alerts
 
+    
     // Allows components to subscribe to alert notifications with optional filtering by ID
     onAlert(id = this.defaultId): Observable<Alert> {
         return this.subject.asObservable().pipe(filter(x => x && x.id === id)); // Filters alerts by ID

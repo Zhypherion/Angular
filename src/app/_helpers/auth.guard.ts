@@ -15,6 +15,7 @@ export class AuthGuard implements CanActivate {
     ) { }
 
     // Method to determine if a route can be activated
+    
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
         // Get the current account information from the account service
         const account = this.accountService.accountValue;

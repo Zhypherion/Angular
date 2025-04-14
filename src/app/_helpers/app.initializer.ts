@@ -4,6 +4,7 @@ import { catchError, of } from 'rxjs'; // Error handling and creating observable
 // Import custom services
 import { AccountService } from '@app/_services'; // Custom service for managing account-related actions
 
+
 // Function to initialize the application
 export function appInitializer(accountService: AccountService) {
     // Return a function that attempts to refresh the user's token

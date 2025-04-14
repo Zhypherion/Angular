@@ -7,3 +7,4 @@ export class DetailsComponent {
 
     constructor(private accountService: AccountService) { } // Inject AccountService into the component's constructor
 }
+

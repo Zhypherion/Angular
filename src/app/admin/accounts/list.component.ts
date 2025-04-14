@@ -15,6 +15,7 @@ export class ListComponent implements OnInit { // Define the ListComponent class
             .subscribe(accounts => this.accounts = accounts); // Assign the fetched accounts to the 'accounts' array
     }
 
+    
     deleteAccount(id: string) { // Method to delete an account by its ID
         const account = this.accounts!.find(x => x.id === id); // Find the account with the specified ID
         account.isDeleting = true; // Mark the account as being deleted

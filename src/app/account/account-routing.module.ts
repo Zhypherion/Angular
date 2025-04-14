@@ -23,6 +23,7 @@ const routes: Routes = [
     }
 ];
 
+
 @NgModule({
     imports: [RouterModule.forChild(routes)],  // Importing the RouterModule and configuring it with the child routes
     exports: [RouterModule]  // Exporting the RouterModule so it can be used in other modules

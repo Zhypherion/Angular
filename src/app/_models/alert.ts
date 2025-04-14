@@ -1,4 +1,5 @@
 // Define the Alert class to represent an alert message in the application
+
 export class Alert {
     id?: string; // Optional: Unique identifier for the alert
     type?: AlertType; // Optional: Type of alert (Success, Error, Info, Warning)

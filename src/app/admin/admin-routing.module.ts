@@ -18,6 +18,7 @@ const accountsModule = () => import('./accounts/accounts.module').then(x => x.Ac
 // Lazy load the AccountsModule when the 'accounts' route is accessed
 
 
+
 const routes: Routes = [
     { path: '', component: SubNavComponent, outlet: 'subnav' }, 
     // Define a route for a sub-navigation component to be displayed in a named outlet ('subnav')

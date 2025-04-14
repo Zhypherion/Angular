@@ -6,6 +6,7 @@ import { first } from 'rxjs/operators'; // Import operator to take the first emi
 import { AccountService, AlertService } from '@app/_services'; // Import custom services for handling account and alerts
 import { MustMatch } from '@app/_helpers'; // Import custom validator to check password match
 
+
 @Component({ templateUrl: 'register.component.html' }) // Define the template file for the component
 export class RegisterComponent implements OnInit {
     form!: FormGroup; // Declare the form group for registration form

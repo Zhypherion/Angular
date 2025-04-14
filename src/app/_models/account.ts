@@ -2,6 +2,7 @@
 import { Role } from './role'; // The Role enum is used to define user roles (e.g., Admin, User)
 
 // Define the Account class to represent a user account
+
 export class Account {
     id?: string; // Optional: Unique identifier for the account (e.g., user ID)
     title?: string; // Optional: Title (e.g., Mr., Ms.) of the account holder

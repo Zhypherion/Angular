@@ -9,3 +9,4 @@ import { Component } from '@angular/core';
 })
 export class SubNavComponent { } 
 // Export the class so it can be used as a component in the application
+

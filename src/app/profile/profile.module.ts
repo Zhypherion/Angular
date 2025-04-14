@@ -7,6 +7,7 @@ import { LayoutComponent } from './layout.component'; // Import LayoutComponent 
 import { DetailsComponent } from './details.component'; // Import DetailsComponent for displaying profile details
 import { UpdateComponent } from './update.component'; // Import UpdateComponent for updating the profile
 
+
 @NgModule({
     imports: [
         CommonModule, // Import CommonModule to use common Angular functionalities

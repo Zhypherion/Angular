@@ -8,5 +8,6 @@ if (environment.production) {
     enableProdMode(); // Enable production mode if the app is running in production environment
 }
 
+
 platformBrowserDynamic().bootstrapModule(AppModule) 
     .catch(err => console.error(err)); // Bootstrap the application with AppModule, and log any errors if the bootstrapping fails

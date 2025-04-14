@@ -2,6 +2,7 @@
 import { Router } from '@angular/router';  // Importing Router service to navigate between views
 import { AccountService } from '@app/_services';  // Importing AccountService to interact with user account data
 
+
 @Component({ templateUrl: 'layout.component.html' })  // Declaring this as an Angular component with the associated HTML template
 export class LayoutComponent {  // Declaring the class for the component
     constructor(

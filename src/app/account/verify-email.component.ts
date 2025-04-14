@@ -14,6 +14,7 @@ export class VerifyEmailComponent implements OnInit {
     EmailStatus = EmailStatus; // Expose EmailStatus enum to the template
     emailStatus = EmailStatus.Verifying; // Default email status is 'Verifying'
 
+    
     constructor(
         private route: ActivatedRoute, // Inject ActivatedRoute for accessing route parameters
         private router: Router, // Inject Router for navigation

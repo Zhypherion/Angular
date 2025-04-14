@@ -105,6 +105,7 @@ export class AccountService {
                 }
                 return account;
             }));
+            
     }
 
     // Deletes a user account by its ID

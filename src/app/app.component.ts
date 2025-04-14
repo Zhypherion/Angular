@@ -10,6 +10,7 @@ import { Account, Role } from './_models';
 @Component({ selector: 'app-root', templateUrl: 'app.component.html' })
 // Declaring the AppComponent as a component with a selector 'app-root' and linking to its HTML template
 
+
 export class AppComponent {
     Role = Role;
     // Making the Role enumeration accessible in the component's template

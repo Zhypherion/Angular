@@ -95,7 +95,7 @@ export class AlertComponent implements OnInit, OnDestroy {
             [AlertType.Warning]: 'alert-warning'
         }
 
-        // Add the appropriate class based on alert
+        // Add the appropriate class based on alert type
         if (alert.type !== undefined) {
             classes.push(alertTypeClass[alert.type]);
         }
